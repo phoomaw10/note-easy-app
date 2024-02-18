@@ -1,0 +1,259 @@
+.home-container {
+    text-align: center;
+  }
+  
+  .title-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-container h1 {
+    margin: 0;
+  }
+  
+  .title-container .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-top: 5px;
+  }
+  
+  .btn-createnote {
+    background-color: #294b29;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .modalcontent {
+    background-color: #c6dcba;
+    width: 500px; 
+    margin: 10px auto; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .modalcontent h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .fill-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fill input {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .fill select {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note-detail-textarea {
+    margin: 5px;
+    height: 150px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-container {
+    margin: 10px;
+  }
+  
+  .btn-cancel {
+    background-color: #ffffff;
+    color: #294b29;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-confirm {
+    background-color: #294b29;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-signout {
+    background-color: #ffffff;
+    color: #294b29;
+    border: 1px solid #294b29;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notes-block {
+    background-color: #bfd8af;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .notes-container {
+    margin-top: 20px;
+  }
+  
+  .notes-container h2 {
+    font-size: 20px;
+  }
+  
+  .notes-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notes-container li {
+    background-color: #bfd8af;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .notes-container li h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .sort-container {
+    display: flex;
+    max-width: 950px;
+    justify-content: end;
+  }
+  
+  .card-container {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 0;
+    width: 400px; 
+    height: auto; 
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #F9EFDB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+  }
+  
+  .card h3,
+  .card p {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+  }
+  
+  .list-card {
+    max-width: 1500px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .card {
+      width: calc(33.33% - 0);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px); 
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .card {
+      width: calc(100% - 20px); 
+    }
+  }
+  
+  .edit-button {
+    background-color: #739072;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    background-color: #739072;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-right: 10px;
+  }
+  
+  .history-button {
+    background-color: #739072;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-right: 10px;
+  }
+  
